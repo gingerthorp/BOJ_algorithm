@@ -4,8 +4,7 @@ def solve():
     N = int(sys.stdin.readline().rstrip())
     arr = [False] * 2000001
     for i in range(N):
-        input = int(sys.stdin.readline())
-        arr[input + 1000000] = True
+c        arr[input + 1000000] = True
 
     count = 0
 
